@@ -1,0 +1,33 @@
+{
+  "name": "@hugomods/eslint-config",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomods/eslint-config.git"
+  },
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomods/eslint-config/issues"
+  },
+  "homepage": "https://github.com/hugomods/eslint-config",
+  "main": "index.js",
+  "dependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0"
+  },
+  "scripts": {
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:fix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
+    "lint:eslint": "eslint .",
+    "lint:eslint:fix": "eslint . --fix",
+    "lint:prettier": "npx prettier . --check",
+    "lint:prettier:fix": "npx prettier . --write"
+  },
+  "devDependencies": {
+    "@hugomods/prettier-config": "^0.1.3"
+  },
+  "prettier": "@hugomods/prettier-config"
+}
