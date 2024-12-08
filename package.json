@@ -11,7 +11,7 @@
     "url": "https://github.com/hugomods/eslint-config/issues"
   },
   "homepage": "https://github.com/hugomods/eslint-config",
-  "main": "index.js",
+  "main": "index.mjs",
   "dependencies": {
     "@eslint/js": "^9.16.0",
     "@tsconfig/recommended": "^1.0.8",
