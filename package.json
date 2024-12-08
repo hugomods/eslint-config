@@ -28,7 +28,7 @@
     "lint:prettier:fix": "npx prettier . --write"
   },
   "devDependencies": {
-    "@hugomods/prettier-config": "^0.1.3"
+    "@hugomods/prettier-config": "^0.2.0"
   },
   "prettier": "@hugomods/prettier-config"
 }
