@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/hugomods/eslint-config/compare/eslint-config/v0.1.2...eslint-config/v0.1.3) (2024-12-21)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency typescript-eslint to v8.18.1 ([#7](https://github.com/hugomods/eslint-config/issues/7)) ([b8271cd](https://github.com/hugomods/eslint-config/commit/b8271cd3fa9f6555fca4d50ce6b3af148a977466))
+
 ## [0.1.2](https://github.com/hugomods/eslint-config/compare/eslint-config/v0.1.1...eslint-config/v0.1.2) (2024-12-08)
 
 
