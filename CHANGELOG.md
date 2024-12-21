@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/hugomods/eslint-config/compare/eslint-config/v0.1.3...eslint-config/v0.1.4) (2024-12-21)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update eslint monorepo to v9.17.0 ([#8](https://github.com/hugomods/eslint-config/issues/8)) ([1d54c00](https://github.com/hugomods/eslint-config/commit/1d54c008d330f0b5a87fb3501419011334a1302e))
+
 ## [0.1.3](https://github.com/hugomods/eslint-config/compare/eslint-config/v0.1.2...eslint-config/v0.1.3) (2024-12-21)
 
 
